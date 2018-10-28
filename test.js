@@ -1,5 +1,6 @@
 const assert = require('assert');
 const sumOfOther = require('./src/sumOfOther');
+const make = require('./src/make.js');
 Object.freeze(assert);
 describe('sumOfOther', () => {
   it('sumOfOther is function', () => {
